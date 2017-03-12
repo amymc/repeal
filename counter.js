@@ -24,12 +24,12 @@ Counter.prototype.renderInitalState = function() {
   var numSince2016 = Math.floor(this.daysBetween * 10);
   this.total = numBefore2016 + numSince2016;
 
-  this.el.innerHTML = this.total;
+  this.el.innerHTML = this.total.toLocaleString();
 };
 
 Counter.prototype.updateTotal = function() {
   this.total++;
-  this.el.innerHTML = this.total;
+  this.el.innerHTML = this.total.toLocaleString();
 };
 
 var repealCounter = new Counter(document.getElementById('counter'));
