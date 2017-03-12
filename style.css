@@ -8,7 +8,13 @@ h1 {
   font-size: 2rem;
 }
 
-.counter {
+.repeal {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.repeal__counter {
   text-align: center;
   font-size: 3.2rem;
 }
