@@ -1,0 +1,14 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Droid Sans Mono';
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.counter {
+  text-align: center;
+  font-size: 3.2rem;
+}
